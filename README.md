@@ -43,4 +43,4 @@ If you have any feedback or are encountering a problem, please open an issue her
 
 Happy swapping! :v:
 
-Credits to Matt Curtis for [MochaJSDelegate](https://github.com/matt-curtis/MochaJSDelegate), and Nick Zdravkovski for the concept.
+Credits to Matt Curtis for [MochaJSDelegate](https://github.com/matt-curtis/MochaJSDelegate), and Nick Zdravkovski for the idea.
