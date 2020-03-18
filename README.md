@@ -11,7 +11,7 @@ Swap It looks for symbols with a matching name across your linked libraries. For
 
 For example, to swap buttons between light and dark mode, the symbol names should be `dark/button/default` & `light/button/default`, or `button/default/dark` & `button/default/light`.
 
-![Image symbol buttons](https://github.com/shantsis/swap-it-sketch/blob/initial/light-dark-buttons.png)
+![Image symbol buttons](https://github.com/shantsis/swap-it-sketch/blob/initial/readME-images/light-dark-buttons.png)
 
 
 To use the plugin:
@@ -21,7 +21,8 @@ To use the plugin:
 4. Enter the modifiers the plugin should find and replace (e.g. 'dark' & 'light'). Note these fields are case sensitive.
 5. (Optional) Select to use symbols located within the document (i.e. not in a library)
 6. Run the plugin!
-![GIF of using the plugin](https://github.com/shantsis/swap-it-sketch/blob/initial/light-dark-buttons.png)
+
+![GIF of using the plugin](https://github.com/shantsis/swap-it-sketch/blob/initial/readME-images/demo.gif)
 
 ## Feedback and Issues
 If you have any feedback or are encountering a problem, please open an issue here or fill out the feedback or report bug forms.
