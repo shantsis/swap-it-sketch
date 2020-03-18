@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<h1>Swap It</h1>
+	<p id="help">Configure the plugin by entering the names it will use to find and replace the symbol instances with</p>
+	
+	<div class="column">
+		<div class="row">
+			<h2>Modifier:</h2>
+			<br>
+		</div>	
+		<div class="row">
+			<h2>Find:</h2>
+		</div>
+		<div class="row">
+			<h2>Replace:</h2>
+		</div>
+	</div>
+	
+	<div class="column">
+		<div class="row"><form>
+			<input type="radio" id="beg" name="modifier" value="beg"/>Beginning of name
+			<br>
+			<input type="radio" id="end" name="modifier" value="end"/>End of name
+		</form></div>
+		<div class="row">
+			<input type="text" id="find" name="find string"/>
+		</div>
+		<div class="row">
+			<input type="text" id="replace" name="replace string"/>
+		</div>	
+		<div class="row">
+			<input type="checkbox" id="keepSame" name="same library" value="sameLibrary"/>Use local symbols within this document
+		</div>
+		<div class="row">
+			<button class="button-secondary" onclick="closeWindow()">Cancel</button>
+			<button class="button-primary"   onclick="getInputs()">Run</button>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
