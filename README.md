@@ -7,7 +7,7 @@ Swap it is a Sketch plugin that can be used to switch symbols across multiple ar
 and more!
 
 ## How to Use
-Swap It looks for symbols with a matching name across your linked libraries. For the plugin to pick up the corresponding symbol, the symbol should have the same path name, with the modifier at the beginning or end of the name. 
+Swap It looks for symbols with a matching name across your linked libraries (or symbols within your document). For the plugin to pick up the corresponding symbol, they should have the same path name, with the modifier at the beginning or end of the name. 
 
 For example, to swap buttons between light and dark mode, the symbol names should be `dark/button/default` & `light/button/default`, or `button/default/dark` & `button/default/light`.
 
@@ -34,11 +34,13 @@ Search for Swap It in Sketchrunner, Sketchpacks, or Sketch Toolbox if you alread
 2. Navigate to SwapIt.sketchplugin and copy/move to your plugins directory
 
 To find your plugins directory:
-1. From the Sketch menu, navigate to Plugins > Manage Plugins...
+1. From the Sketch menu, navigate to Plugins → Manage Plugins...
 2. Select the gear in the lower left of the plugins window, and Select Reveal Plugins Folder
 
 ## Feedback and Issues
 If you have any feedback or are encountering a problem, please open an issue here or fill out the [feedback or report bug form](https://forms.gle/FfKRM377zF5X497p6).
 
 
-Happy swapping!
+Happy swapping! :v:
+
+Credits to Matt Curtis for [MochaJSDelegate](https://github.com/matt-curtis/MochaJSDelegate), and Nick Zdravkovski for the concept.
