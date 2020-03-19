@@ -23,16 +23,9 @@
     "build": "skpm-build",
     "watch": "skpm-build --watch",
     "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/babel-preset": "^0.2.1",
-    "@skpm/builder": "^0.7.0",
-    "@skpm/extract-loader": "^2.0.2",
-  },
-  "resources": [
-    "resources/**/*.js"
-  ],
-  "dependencies": {
-    "skpm": "^1.2.0",
+    "@skpm/builder": "^0.7.0"
   }
 }
