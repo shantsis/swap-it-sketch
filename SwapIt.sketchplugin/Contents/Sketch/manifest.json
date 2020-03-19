@@ -7,6 +7,7 @@
     "version" : "1.0",
     "author" : "Shaina Hantsis",
     "authorEmail" : "shaina.hantsis@gmail.com",
+    "appcast": "https://github.com/shantsis/swap-it-sketch/blob/master/appcast.xml",
 
     "commands" : [
     {
