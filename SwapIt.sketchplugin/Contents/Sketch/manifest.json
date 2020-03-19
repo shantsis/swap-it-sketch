@@ -1,7 +1,7 @@
 {
     "name" : "Swap It",
     "description" : "Replace symbol instances across multiple artboards easily.",
-    "homepage" : "github URL",
+    "homepage" : "https://github.com/shantsis/swap-it-sketch/",
     "icon" : "icon.png",
     "identifier" : "com.shaina-hantsis.SwapIt",
     "version" : "1.0",
