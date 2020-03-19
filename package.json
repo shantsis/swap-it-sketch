@@ -1,0 +1,38 @@
+{
+  "name": "SwapIt",
+  "description": "Replace symbol instances across multiple artboards easily.",
+  "author": "Shaina Hantsis",
+  "identifier": "com.shaina-hantsis.SwapIt",
+  "version": "1.0",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/shantsis/swap-it-sketch/"
+  },
+  "engines": {
+    "sketch": ">=63.0"
+  },
+  "skpm": {
+    "name": "SwapIt",
+    "manifest": "src/manifest.json",
+    "main": "SwapIt.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+  },
+  "devDependencies": {
+    "@skpm/babel-preset": "^0.2.1",
+    "@skpm/builder": "^0.7.0",
+    "@skpm/extract-loader": "^2.0.2",
+  },
+  "resources": [
+    "resources/**/*.js"
+  ],
+  "dependencies": {
+    "skpm": "^1.2.0",
+  }
+}
