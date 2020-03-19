@@ -6,7 +6,7 @@
 <description>Replace symbols across multiple artboards easily from libraries or local documents.</description>
 <language>en</language>
 <item>
-  <enclosure url="https://github.com/shantsis/swap-it-sketch.zip" sparkle:version="1.0"/>
+  <enclosure url="https://github.com/shantsis/swap-it-sketch/blob/master/SwapIt.sketchplugin.zip" sparkle:version="1.0"/>
 </item>
 </channel>
 </rss>
