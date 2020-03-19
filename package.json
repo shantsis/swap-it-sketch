@@ -6,7 +6,7 @@
   "version": "1.0",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/shantsis/swap-it-sketch/"
+    "url": "https://github.com/shantsis/swap-it-sketch.git"
   },
   "engines": {
     "sketch": ">=63.0"
