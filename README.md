@@ -27,7 +27,7 @@ To use the plugin:
 ## Installing the plugin
 
 ### Option 1: Automatic
-Search for Swap It in Sketchrunner, Sketchpacks, or Sketch Toolbox if you already have one of these installed.
+Search for Swap It in Sketchrunner if you already have it installed.
 
 ### Option 2: Manual
 1. Download and open swap-it-sketch.zip
